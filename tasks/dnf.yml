@@ -1,5 +1,5 @@
 ---
-- name: Repo Remi | YUM | Deploy repository
+- name: Repo Remi | DNF | Deploy repository
   dnf:
     name: "{{ remi_repo_url }}"
 
