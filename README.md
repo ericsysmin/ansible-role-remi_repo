@@ -36,4 +36,4 @@ MIT
 
 ## Author Information
 
-Updated by [Eric Anderson](https://ericsysmin.com/) 2018
+[ericsysmin](https://ericsysmin.com/)
