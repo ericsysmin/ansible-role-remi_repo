@@ -3,16 +3,16 @@ cwd=/home/eanderson/github/ericsysmin.remi_repo/molecule/default
 args=['-p', 'no:cacheprovider', '-p', 'no:stepwise', '--debug', '-p', 'no:cacheprovider', '--connection=ansible', '--ansible-inventory=/tmp/molecule/ericsysmin.remi_repo/default/ansible_inventory.yml', '/home/eanderson/github/ericsysmin.remi_repo/molecule/default/tests/test_default.py', '-vvv']
 
   pytest_cmdline_main [hook]
-      config: <_pytest.config.Config object at 0x7f37e5c70a90>
+      config: <_pytest.config.Config object at 0x7f4cb0709a90>
     pytest_plugin_registered [hook]
-        manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
         plugin: <Session 'default'>
     finish pytest_plugin_registered --> [] [hook]
     pytest_configure [hook]
-        config: <_pytest.config.Config object at 0x7f37e5c70a90>
+        config: <_pytest.config.Config object at 0x7f4cb0709a90>
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.logging.LoggingPlugin object at 0x7f37e562ca90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f4cb00c5a90>
       finish pytest_plugin_registered --> [] [hook]
     early skip of rewriting module: py._io.terminalwriter [assertion]
     early skip of rewriting module: py._io.unicodedata [assertion]
@@ -22,287 +22,287 @@ args=['-p', 'no:cacheprovider', '-p', 'no:stepwise', '--debug', '-p', 'no:cachep
     early skip of rewriting module: py._io.fcntl [assertion]
     early skip of rewriting module: py._io.struct [assertion]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.config.Config object at 0x7f37e5c70a90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.config.Config object at 0x7f4cb0709a90>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.mark' from '/usr/local/lib/python2.7/dist-packages/_pytest/mark/__init__.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.main' from '/usr/local/lib/python2.7/dist-packages/_pytest/main.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.terminal' from '/usr/local/lib/python2.7/dist-packages/_pytest/terminal.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.runner' from '/usr/local/lib/python2.7/dist-packages/_pytest/runner.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.python' from '/usr/local/lib/python2.7/dist-packages/_pytest/python.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.fixtures' from '/usr/local/lib/python2.7/dist-packages/_pytest/fixtures.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.debugging' from '/usr/local/lib/python2.7/dist-packages/_pytest/debugging.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.unittest' from '/usr/local/lib/python2.7/dist-packages/_pytest/unittest.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.capture' from '/usr/local/lib/python2.7/dist-packages/_pytest/capture.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.skipping' from '/usr/local/lib/python2.7/dist-packages/_pytest/skipping.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.tmpdir' from '/usr/local/lib/python2.7/dist-packages/_pytest/tmpdir.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.monkeypatch' from '/usr/local/lib/python2.7/dist-packages/_pytest/monkeypatch.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.recwarn' from '/usr/local/lib/python2.7/dist-packages/_pytest/recwarn.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.pastebin' from '/usr/local/lib/python2.7/dist-packages/_pytest/pastebin.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.helpconfig' from '/usr/local/lib/python2.7/dist-packages/_pytest/helpconfig.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.nose' from '/usr/local/lib/python2.7/dist-packages/_pytest/nose.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.assertion' from '/usr/local/lib/python2.7/dist-packages/_pytest/assertion/__init__.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.junitxml' from '/usr/local/lib/python2.7/dist-packages/_pytest/junitxml.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.resultlog' from '/usr/local/lib/python2.7/dist-packages/_pytest/resultlog.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.doctest' from '/usr/local/lib/python2.7/dist-packages/_pytest/doctest.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.cacheprovider' from '/usr/local/lib/python2.7/dist-packages/_pytest/cacheprovider.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.freeze_support' from '/usr/local/lib/python2.7/dist-packages/_pytest/freeze_support.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.setuponly' from '/usr/local/lib/python2.7/dist-packages/_pytest/setuponly.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.setupplan' from '/usr/local/lib/python2.7/dist-packages/_pytest/setupplan.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.stepwise' from '/usr/local/lib/python2.7/dist-packages/_pytest/stepwise.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.warnings' from '/usr/local/lib/python2.7/dist-packages/_pytest/warnings.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.logging' from '/usr/local/lib/python2.7/dist-packages/_pytest/logging.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module 'testinfra.plugin' from '/usr/local/lib/python2.7/dist-packages/testinfra/plugin.py'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.capture.CaptureManager object at 0x7f37e56a0590>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.capture.CaptureManager object at 0x7f4cb0139590>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <Session 'default'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.logging.LoggingPlugin object at 0x7f37e562ca90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f4cb00c5a90>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.terminal.TerminalReporter object at 0x7f37e562cf90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f4cb00c5f90>
       finish pytest_plugin_registered --> [] [hook]
     finish pytest_configure --> [] [hook]
     pytest_sessionstart [hook]
         session: <Session 'default'>
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.config.Config object at 0x7f37e5c70a90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.config.Config object at 0x7f4cb0709a90>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.mark' from '/usr/local/lib/python2.7/dist-packages/_pytest/mark/__init__.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.main' from '/usr/local/lib/python2.7/dist-packages/_pytest/main.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.terminal' from '/usr/local/lib/python2.7/dist-packages/_pytest/terminal.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.runner' from '/usr/local/lib/python2.7/dist-packages/_pytest/runner.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.python' from '/usr/local/lib/python2.7/dist-packages/_pytest/python.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.fixtures' from '/usr/local/lib/python2.7/dist-packages/_pytest/fixtures.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.debugging' from '/usr/local/lib/python2.7/dist-packages/_pytest/debugging.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.unittest' from '/usr/local/lib/python2.7/dist-packages/_pytest/unittest.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.capture' from '/usr/local/lib/python2.7/dist-packages/_pytest/capture.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.skipping' from '/usr/local/lib/python2.7/dist-packages/_pytest/skipping.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.tmpdir' from '/usr/local/lib/python2.7/dist-packages/_pytest/tmpdir.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.monkeypatch' from '/usr/local/lib/python2.7/dist-packages/_pytest/monkeypatch.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.recwarn' from '/usr/local/lib/python2.7/dist-packages/_pytest/recwarn.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.pastebin' from '/usr/local/lib/python2.7/dist-packages/_pytest/pastebin.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.helpconfig' from '/usr/local/lib/python2.7/dist-packages/_pytest/helpconfig.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.nose' from '/usr/local/lib/python2.7/dist-packages/_pytest/nose.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.assertion' from '/usr/local/lib/python2.7/dist-packages/_pytest/assertion/__init__.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.junitxml' from '/usr/local/lib/python2.7/dist-packages/_pytest/junitxml.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.resultlog' from '/usr/local/lib/python2.7/dist-packages/_pytest/resultlog.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.doctest' from '/usr/local/lib/python2.7/dist-packages/_pytest/doctest.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.cacheprovider' from '/usr/local/lib/python2.7/dist-packages/_pytest/cacheprovider.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.freeze_support' from '/usr/local/lib/python2.7/dist-packages/_pytest/freeze_support.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.setuponly' from '/usr/local/lib/python2.7/dist-packages/_pytest/setuponly.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.setupplan' from '/usr/local/lib/python2.7/dist-packages/_pytest/setupplan.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.stepwise' from '/usr/local/lib/python2.7/dist-packages/_pytest/stepwise.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.warnings' from '/usr/local/lib/python2.7/dist-packages/_pytest/warnings.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module '_pytest.logging' from '/usr/local/lib/python2.7/dist-packages/_pytest/logging.pyc'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <module 'testinfra.plugin' from '/usr/local/lib/python2.7/dist-packages/testinfra/plugin.py'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.capture.CaptureManager object at 0x7f37e56a0590>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.capture.CaptureManager object at 0x7f4cb0139590>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
           plugin: <Session 'default'>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.logging.LoggingPlugin object at 0x7f37e562ca90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f4cb00c5a90>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.terminal.TerminalReporter object at 0x7f37e562cf90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f4cb00c5f90>
       finish pytest_plugin_registered --> [] [hook]
       pytest_plugin_registered [hook]
-          manager: <_pytest.config.PytestPluginManager object at 0x7f37e9494410>
-          plugin: <_pytest.fixtures.FixtureManager object at 0x7f37e5612490>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f4cb3f2d410>
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f4cb007f350>
       finish pytest_plugin_registered --> [] [hook]
       pytest_report_header [hook]
           startdir: /home/eanderson/github/ericsysmin.remi_repo/molecule/default
-          config: <_pytest.config.Config object at 0x7f37e5c70a90>
+          config: <_pytest.config.Config object at 0x7f4cb0709a90>
       finish pytest_report_header --> [['rootdir: /home/eanderson/github/ericsysmin.remi_repo/molecule/default, inifile: pytest.ini', 'plugins: testinfra-1.16.0'], ['using: pytest-3.10.0 pylib-1.7.0', 'setuptools registered plugins:', '  testinfra-1.16.0 at /usr/local/lib/python2.7/dist-packages/testinfra/plugin.py']] [hook]
     finish pytest_sessionstart --> [] [hook]
     pytest_collection [hook]
@@ -708,11 +708,11 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
             name: __file__
         finish pytest_pycollect_makeitem --> None [hook]
         pytest_pycollect_makeitem [hook]
-            obj: <function test_hosts_file at 0x7f37e5175488>
+            obj: <function test_hosts_file at 0x7f4cafc0e488>
             collector: <Module 'tests/test_default.py'>
             name: test_hosts_file
           pytest_generate_tests [hook]
-              metafunc: <_pytest.python.Metafunc object at 0x7f37e35c2210>
+              metafunc: <_pytest.python.Metafunc object at 0x7f4cae05b210>
           matched marked file 'testinfra.backend.ansible' (from 'testinfra') [assertion]
           find_module called for: testinfra.backend.ansible [assertion]
           read only directory: '/usr/local/lib/python2.7/dist-packages/testinfra/backend' [assertion]
@@ -761,7 +761,7 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
           finish pytest_generate_tests --> [] [hook]
         finish pytest_pycollect_makeitem --> [<Function 'test_hosts_file[ansible://instance]'>] [hook]
         pytest_pycollect_makeitem [hook]
-            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f37e5903c10>
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f4cb039dc10>
             collector: <Module 'tests/test_default.py'>
             name: __loader__
         finish pytest_pycollect_makeitem --> None [hook]
@@ -806,7 +806,7 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
             name: __setattr__
         finish pytest_pycollect_makeitem --> None [hook]
         pytest_pycollect_makeitem [hook]
-            obj: <built-in method __new__ of type object at 0x5576510602a0>
+            obj: <built-in method __new__ of type object at 0x561d05f252a0>
             collector: <Module 'tests/test_default.py'>
             name: __new__
         finish pytest_pycollect_makeitem --> None [hook]
@@ -886,13 +886,13 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
       pytest_collection_modifyitems [hook]
           items: [<Function 'test_hosts_file[ansible://instance]'>]
           session: <Session 'default'>
-          config: <_pytest.config.Config object at 0x7f37e5c70a90>
+          config: <_pytest.config.Config object at 0x7f4cb0709a90>
       finish pytest_collection_modifyitems --> [] [hook]
       pytest_collection_finish [hook]
           session: <Session 'default'>
         pytest_report_collectionfinish [hook]
             items: [<Function 'test_hosts_file[ansible://instance]'>]
-            config: <_pytest.config.Config object at 0x7f37e5c70a90>
+            config: <_pytest.config.Config object at 0x7f4cb0709a90>
             startdir: /home/eanderson/github/ericsysmin.remi_repo/molecule/default
         finish pytest_report_collectionfinish --> [] [hook]
       finish pytest_collection_finish --> [] [hook]
@@ -911,11 +911,11 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef name='_testinfra_host' scope=u'module' baseid=''>
               request: <SubRequest '_testinfra_host' for <Function 'test_hosts_file[ansible://instance]'>>
-          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f37e5610190> [hook]
+          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f4cb00a8190> [hook]
           pytest_fixture_setup [hook]
               fixturedef: <FixtureDef name='host' scope=u'module' baseid=''>
               request: <SubRequest 'host' for <Function 'test_hosts_file[ansible://instance]'>>
-          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f37e5610190> [hook]
+          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f4cb00a8190> [hook]
         finish pytest_runtest_setup --> [] [hook]
         pytest_runtest_makereport [hook]
             item: <Function 'test_hosts_file[ansible://instance]'>
@@ -1571,9 +1571,9 @@ All Rights Reserved., 'NameError': <type 'exceptions.NameError'>, 'BytesWarning'
         exitstatus: 0
       pytest_terminal_summary [hook]
           exitstatus: 0
-          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f37e562cf90>
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f4cb00c5f90>
       finish pytest_terminal_summary --> [] [hook]
     finish pytest_sessionfinish --> [] [hook]
     pytest_unconfigure [hook]
-        config: <_pytest.config.Config object at 0x7f37e5c70a90>
+        config: <_pytest.config.Config object at 0x7f4cb0709a90>
     finish pytest_unconfigure --> [] [hook]

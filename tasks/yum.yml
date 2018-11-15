@@ -2,6 +2,7 @@
 - name: Repo Remi | YUM | Deploy repository
   yum:
     name: "{{ remi_repo_url }}"
+    validate_certs: "{{ remi_repo_validate_certs }}"
 
 - name: Repo Remi | Enable/Disable specific remi repository
   block:
