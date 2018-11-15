@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: repo_remi
+  role_name: remi_repo
   author: ericsysmin
   description: Remi's RPM repository for RHEL/CentOS.
   license: MIT
