@@ -2,6 +2,7 @@
 galaxy_info:
   role_name: remi_repo
   author: ericsysmin
+  company: Avi Networks
   description: Remi's RPM repository for RHEL/CentOS.
   license: MIT
   min_ansible_version: 2.4
