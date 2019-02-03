@@ -18,8 +18,7 @@ provisioner:
   lint:
     name: ansible-lint
     options:
-      x:
-        - ANSIBLE0006
+      c: molecule/default/.ansible-lint
 scenario:
   name: default
 verifier:
