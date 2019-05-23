@@ -10,19 +10,19 @@ None.
 
 ## Role Variables
 
-| Variable | Required | Default | Comments |
-|----------|----------|---------|----------|
-| `remi_repo_url` | No | `http://rpms.famillecollet.com/enterprise/remi-release-{{ ansible_distribution_major_version }}.rpm` | Set url for remi repository  |
-| `remi_repo_gpg_key_url` | No | `http://rpms.remirepo.net/RPM-GPG-KEY-remi` | GPG key location for remi repository  |
-| `remi_repo_enable_list` | No | `[]` | List of repositories to enable  |
+| Variable                | Required | Default                                                                                              | Comments                             |
+| ----------------------- | -------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| `remi_repo_url`         | No       | `http://rpms.famillecollet.com/enterprise/remi-release-{{ ansible_distribution_major_version }}.rpm` | Set url for remi repository          |
+| `remi_repo_gpg_key_url` | No       | `http://rpms.remirepo.net/RPM-GPG-KEY-remi`                                                          | GPG key location for remi repository |
+| `remi_repo_enable_list` | No       | `[]`                                                                                                 | List of repositories to enable       |
 
 ## Dependencies
 
 None.
 
 ## Example Playbook
-```
 
+```yaml
 - hosts: servers
   roles:
     - ericsysmin.repo-remi
