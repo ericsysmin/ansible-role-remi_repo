@@ -1,3 +1,5 @@
+# THIS REPO IS NO LONGER MAINTAINED - MOVED TO [ericsysmin.system.remi_repo](https://github.com/ericsysmin/ansible-collection-system)
+
 # ericsysmin.remi_repo
 
 [![Build Status](https://travis-ci.org/ericsysmin/ansible-role-repo-remi.svg?branch=master)](https://travis-ci.org/ericsysmin/ansible-role-remi_repo)
